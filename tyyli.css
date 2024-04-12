@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #50805050;
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+}
+
+button {
+    background-color: #0e3d0e;
+    color: #41dd41;
+    padding: 3px;
+    margin: 5px 5px;
+    border-radius: 4px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #0e3d0e;
+    color: #41dd41;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+button:active, nav a:active{
+    background-color: #41dd41;
+    color: #0e3d0e;
+}
+
+
+#tulostus {
+    margin-left: 30px;
+}
